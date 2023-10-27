@@ -1,0 +1,72 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005a9e;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+/* Secured page styling */
+.secured-content {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+}
